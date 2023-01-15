@@ -13,7 +13,8 @@
 	max-width: 1440px;
 	padding: 0 4rem;
 }
-button {
+button,
+input[type="button"] {
 	width: 180px;
 	font-weight: 600;
 	font-size: 20px;
@@ -23,7 +24,7 @@ button {
 	border-radius: 5px;
 	background: #ff9431;
 	padding: 20px 25px;
-    cursor: pointer;
+	cursor: pointer;
 }
 .desc {
 	font-weight: 400;
